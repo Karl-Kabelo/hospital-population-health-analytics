@@ -1,0 +1,10 @@
+check_id,table_name,quality_check,issues_detected_raw,expected_after_cleaning,issues_remaining_cleaned,status,remediation_policy
+DQ-01,patients,Duplicate patient IDs,4,0,0,PASS,Deduplicate on primary key Id (keep first occurrence) to maintain unique entity grain.
+DQ-02,patients,Invalid or unstandardized demographic gender values,6,0,0,PASS,"Standardize case/labels ('male'->'M', 'female'->'F') and infer missing gender from prefix."
+DQ-03,patients,Missing patient ZIP codes (Synthea Issue #421),8,0,0,PASS,Impute missing ZIP with '00000' rather than deleting valid patients; preserve blank DEATHDATE for living patients.
+DQ-04,encounters,Duplicate encounter IDs,3,0,0,PASS,Deduplicate on Encounter Id (keep first occurrence).
+DQ-05,encounters,Missing patient IDs in encounters,2,0,0,PASS,Quarantine and remove encounter rows missing foreign key PATIENT identifier.
+DQ-06,encounters,Orphan encounter records (nonexistent patient reference),3,0,0,PASS,Enforce referential integrity against dim_patient; remove orphan encounters.
+DQ-07,encounters,Invalid date sequences (encounter end precedes start),5,0,0,PASS,Swap inverted START and STOP timestamps to preserve valid encounter volume and duration.
+DQ-08,conditions,"Duplicate diagnosis records (same patient, encounter, code, start)",14,0,0,PASS,"Deduplicate composite key (PATIENT, ENCOUNTER, CODE, START)."
+DQ-09,observations,Observations lacking Encounter ID (Synthea QALY/DALY/QOLS survey records),270,270,270,PASS (DOCUMENTED),Retain with nullable encounter_id and flag IS_QOL_UNLINKED=1; split VALUE into VALUE_NUMERIC and VALUE_TEXT.

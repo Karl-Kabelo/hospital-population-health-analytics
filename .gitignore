@@ -1,0 +1,14 @@
+# Python byte-compiled / cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+provider_id,organization_id,provider_name,gender,speciality,city,state
+e132820a-7e1d-5567-a4e0-345b79b75bd7,c272b81f-fbeb-528f-a12b-40399693fea5,Dr. Sarah Williams,F,INTERNAL MEDICINE,Boston,MA
+a25eba1f-c032-50f0-b2c9-e93f469b0e2b,4fca9b65-3098-55fa-b3c7-d35a5576ffd2,Dr. Daniel Wilson,M,EMERGENCY MEDICINE,Cambridge,MA
+9807dd87-9a86-5f75-ad3b-6b5b51192084,b96172bb-cf69-58ad-b0aa-263f8143b2b9,Dr. Mary Smith,F,FAMILY PRACTICE,Worcester,MA
+37e45471-5491-5f9d-966d-c5084f38f7ad,5e0e7361-3189-5a7b-bfa5-2d9fe10e8040,Dr. Robert Miller,M,CARDIOLOGY,Springfield,MA
+63f6931f-d91b-51aa-9108-7fb8b5aa69fe,fe71aaff-b78b-562c-ab82-7a4e36da818b,Dr. Linda Taylor,F,ENDOCRINOLOGY,Lowell,MA
+ba40d58c-7c30-5a25-aa70-5ef4c7d7ac7e,1a069e7d-dd81-58d2-a680-6e6e8383d1c2,Dr. Daniel Smith,M,PULMONOLOGY,Quincy,MA
+0d871b26-dccd-5871-945e-d8c1e5430f70,c272b81f-fbeb-528f-a12b-40399693fea5,Dr. Sarah Miller,F,NEPHROLOGY,Boston,MA
+81458e80-b5e4-5b4a-b7d9-9025d0b43a76,4fca9b65-3098-55fa-b3c7-d35a5576ffd2,Dr. Charles Wilson,M,GENERAL PRACTICE,Cambridge,MA
+582bf987-7843-5445-8ec4-21079caee5f2,b96172bb-cf69-58ad-b0aa-263f8143b2b9,Dr. Linda Anderson,F,INTERNAL MEDICINE,Worcester,MA
+9ee39303-b787-5912-9562-a5a2d4c81c9f,5e0e7361-3189-5a7b-bfa5-2d9fe10e8040,Dr. Daniel Rodriguez,M,EMERGENCY MEDICINE,Springfield,MA
+db1b8a99-4b05-52c2-9676-509533604ac5,fe71aaff-b78b-562c-ab82-7a4e36da818b,Dr. Mary Garcia,F,FAMILY PRACTICE,Lowell,MA
+c3c773b3-0aed-501d-b4c2-0039111f3431,1a069e7d-dd81-58d2-a680-6e6e8383d1c2,Dr. Richard Hernandez,M,CARDIOLOGY,Quincy,MA
+95fa9544-35f3-5769-9bbd-12fe3466bb21,c272b81f-fbeb-528f-a12b-40399693fea5,Dr. Elizabeth Jones,F,ENDOCRINOLOGY,Boston,MA
+70b4d8b1-eb50-5ad8-b9c5-4db56d3c19b6,4fca9b65-3098-55fa-b3c7-d35a5576ffd2,Dr. Michael Hernandez,M,PULMONOLOGY,Cambridge,MA
+7cca149a-7edb-535c-a740-d5800f644d88,b96172bb-cf69-58ad-b0aa-263f8143b2b9,Dr. Patricia Williams,F,NEPHROLOGY,Worcester,MA
+15352a23-5de9-577e-b776-2f03d8a80a3c,5e0e7361-3189-5a7b-bfa5-2d9fe10e8040,Dr. Richard Brown,M,GENERAL PRACTICE,Springfield,MA
+5e01f6f4-4f1e-5f5b-bb95-8f01719277a0,fe71aaff-b78b-562c-ab82-7a4e36da818b,Dr. Barbara Lopez,F,INTERNAL MEDICINE,Lowell,MA
+c8826e90-a10a-589a-af81-3197234fa009,1a069e7d-dd81-58d2-a680-6e6e8383d1c2,Dr. Daniel Rodriguez,M,EMERGENCY MEDICINE,Quincy,MA
+3364b0ed-07d0-566a-9314-ae90839978fc,c272b81f-fbeb-528f-a12b-40399693fea5,Dr. Mary Anderson,F,FAMILY PRACTICE,Boston,MA
+8fc393e7-3ca2-541a-9e50-0e39d59255a2,4fca9b65-3098-55fa-b3c7-d35a5576ffd2,Dr. Charles Brown,M,CARDIOLOGY,Cambridge,MA
+3b7dc5be-d1f0-5254-b8be-a9894c4ea33b,b96172bb-cf69-58ad-b0aa-263f8143b2b9,Dr. Susan Williams,F,ENDOCRINOLOGY,Worcester,MA
+dafafc66-dd4a-510e-b39f-be94460441d1,5e0e7361-3189-5a7b-bfa5-2d9fe10e8040,Dr. Charles Martinez,M,PULMONOLOGY,Springfield,MA
+7a6f9207-03af-5eb5-aefc-3039fecdda82,fe71aaff-b78b-562c-ab82-7a4e36da818b,Dr. Karen Lopez,F,NEPHROLOGY,Lowell,MA
+54a8f7bc-e926-52fb-b1a2-3abea43d0d1c,1a069e7d-dd81-58d2-a680-6e6e8383d1c2,Dr. Daniel Miller,M,GENERAL PRACTICE,Quincy,MA
